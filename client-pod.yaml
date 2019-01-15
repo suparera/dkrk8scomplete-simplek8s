@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
     - name: client
-      image: suparera/multi-client
+      image: suparera/multi-worker
       ports:
         - containerPort: 3000 
